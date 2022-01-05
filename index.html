@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+      rel="stylesheet"
+      />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -29,67 +33,63 @@
       <p id="currentDay" class="lead"></p>
     </header>
 <button class="btn"></button>
-  <div class="container">
-    <button class="savebtn" data-toggle="modal" data-target="#save-modal">
-      <span class="oi oi-lock-locked"></span>
-    </button>
-      <!-- Timeblocks go here -->
 
+  <div class="container">
+
+      <!-- Timeblocks go here -->
   <div class="row">      
-      <div class="col-sm-2">9</div>
-      <div class="col-sm-9">""</div>
-      <div class="col-sm-1" style="background-color: blue;">save
+      <div class="col-sm-2" style="text-align:right;">9AM</div>
+      <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+      <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);"><span class="oi oi-lock-locked"></span>
       </div>
   
   </div>
 <div class="row">
-  <div class="col-sm-2">10</div>
-  <div class="col-sm-9">""</div>
-  <div class="col-sm-1" style="background-color: blue;">save</div>
+  <div class="col-sm-2" style="text-align:right;">10AM</div>
+  <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+  <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);"><span class="oi oi-lock-locked"></span></div>
 </div>
 <div class="row">
-    <div class="col-sm-2">11</div>
-    <div class="col-sm-9">""</div>
-    <div class="col-sm-1" style="background-color: blue;">save</div>
+    <div class="col-sm-2" style="text-align:right;">11AM</div>
+    <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+    <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);;"><span class="oi oi-lock-locked"></span></div>
   </div>
 <div class="row">
-    <div class="col-sm-2">12</div>
-    <div class="col-sm-9">""</div>
-    <div class="col-sm-1" style="background-color: blue;">save</div>
+    <div class="col-sm-2" style="text-align:right;">12PM</div>
+    <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+    <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);;"><span class="oi oi-lock-locked"></span></div>
   </div>
 <div class="row">
-    <div class="col-sm-2">1</div>
-    <div class="col-sm-9">""</div>
-    <div class="col-sm-1" style="background-color: blue;">save</div>
+    <div class="col-sm-2" style="text-align:right;">1PM</div>
+    <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+    <div class="col-sm-1" style="background-color: rgb(0, 183, 255);"><span class="oi oi-lock-locked"></span></div>
 </div>
 
 <div class="row">
-    <div class="col-sm-2">2</div>
-    <div class="col-sm-9">""</div>
-    <div class="col-sm-1" style="background-color: blue;">save</div>
+    <div class="col-sm-2" style="text-align:right;">2PM</div>
+    <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+    <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);;"><span class="oi oi-lock-locked"></span></div>
 </div>
 
 <div class="row">
-    <div class="col-sm-2">3</div>
-    <div class="col-sm-9">""</div>
-    <div class="col-sm-1" style="background-color: blue; width: 100%;">save</div>
+    <div class="col-sm-2" style="text-align:right;">3PM</div>
+    <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+    <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);"><span class="oi oi-lock-locked"></span></div>
 </div>
 
 <div class="row">
-    <div class="col-sm-2">4</div>
-    <div class="col-sm-9"></div>
-    <div class="col-sm-1" style="background-color: blue;">save</div>
+    <div class="col-sm-2" style="text-align:right;">4PM</div>
+    <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+    <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);"><span class="oi oi-lock-locked"></span></div>
 </div>
 <div class="row">
-    <div class="col-sm-2">5</div>
-    <div class="col-sm-9">""</div>
-    <div class="col-sm-1" style="background-color: blue;">save</div>
+    <div class="col-sm-2" style="text-align:right;">5PM</div>
+    <div class="col-sm-9"><textarea class="task" id="task" rows="3"></textarea></div>
+    <div class="col-sm-1" style="background-color:  rgb(0, 183, 255);;"><span class="oi oi-lock-locked"></span></div>
 </div>
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

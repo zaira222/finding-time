@@ -76,6 +76,9 @@ body {
    
  }
 
+ .container {
+  
+ }
 
  .col-sm-9 {
    border: solid black;
@@ -96,8 +99,52 @@ body {
 .col-sm-2 { 
   border-right-style: solid;
   border-top-style: dotted;
+  
 
 }
 
+.task {
+  width: 100%;
+}
 
- 
+span {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}
+@media screen and (max-width: 980px) {
+
+.container {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 768px) {
+  span {
+    margin-left: -10px;
+      
+    }
+  }
+   
+  
+  @media screen and (max-width: 575px) {
+    .container {
+      width: 30%;
+    }
+
+    span {
+      width: 50%;
+      
+    }
+    .col-sm-1 {
+      width: 32%;
+    }
+    .col-sm-9 {
+      width: 35%;
+     }
+     .col-sm-2 {
+       width: 35%;
+     }
+
+     
+    }
