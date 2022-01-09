@@ -20,4 +20,4 @@ the colors.
 
 
 # Contribution
-** Made by Zaira
+* Made by Zaira
