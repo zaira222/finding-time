@@ -5,16 +5,17 @@
 the colors. 
 
 # Build With
-** HTML
-** CSS
-** JavaScript 
-** Moment.js
+* HTML
+* CSS
+* JavaScript/JQuery
+* Moment.js
 
 # Website
 **
 
 # Mock-up
 
+![1641695996507](https://user-images.githubusercontent.com/94399039/148667615-bde32086-c78d-405f-b9a9-31ef9a3515fa.png)
 
 
 
